@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Image, FlatList } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context'
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { GameCard, GameCardProps} from '../../components/GameCard';
 import { Heading } from '../../components/Heading';
