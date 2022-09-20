@@ -106,7 +106,7 @@ First of all, we need to ensure that the <strong>server is running</strong>, to 
    ```
    <img align="center" alt="print-ipconfig" src="https://user-images.githubusercontent.com/44311634/178123996-7183d436-2bd2-4f5e-b8ac-2ecd8f3d0737.jpg">
    <br/> <br/> 
-5. Change the API_URL in `.\app.json`, with your <strong>IPv4 Address</strong> captured above, keeping the door `:3333` 
+5. Change the API_URL in `.\app.json` with your <strong>IPv4 Address</strong> captured above, keeping the door `:3333` 
    ```json
     "extra": {
       "API_URL": "http://yourIPv4Address:3333"
