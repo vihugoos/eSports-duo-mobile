@@ -65,14 +65,10 @@ An app for you to find a duo and play your favorite games. It is possible to bro
     <a href="https://expo.dev/"> 
       <img align="center" alt="Icon-Expo" height="35" src="https://user-images.githubusercontent.com/44311634/178088819-374d1241-cef7-4f68-b400-4a33ccec45e2.png"> 
     </a> &nbsp;
-    <!-- Icon React -->
-    <a href="https://reactjs.org/"> 
-      <img align="center" alt="Icon-React" height="35" src="https://user-images.githubusercontent.com/44311634/178088844-02a9c9ba-28b9-4ef6-87f0-d12d52ceaf0b.png"> 
+    <!-- Icon React Native -->
+    <a href="https://reactnative.dev/"> 
+      <img align="center" alt="Icon-ReactNative" height="35" src="https://user-images.githubusercontent.com/44311634/178088844-02a9c9ba-28b9-4ef6-87f0-d12d52ceaf0b.png"> 
     </a> &nbsp;
-    <!-- Icon Axios -->
-    <a href="https://axios-http.com/"> 
-      <img align="center" alt="Icon-Axios" height="55" src="https://user-images.githubusercontent.com/44311634/178089407-0176462e-7e60-4f4f-9ad8-5429a22b2c5c.png"> 
-    </a>
 </div>
 
 <br/>
@@ -87,14 +83,14 @@ To get started, you need to have <strong>Node.js 16+</strong> installed on your 
 
 ### Prerequisites 
 
-First of all, we need to ensure that the <strong>server is running</strong>, to do so, visit my <a href="https://github.com/vihugoos/feedback-widget-server">@feedback-widget-server</a> repository and follow the install and run guide. 
+First of all, we need to ensure that the <strong>server is running</strong>, to do so, visit my <a href="https://github.com/vihugoos/eSports-duo-server">@eSports-duo-server</a> repository and follow the install and run guide. 
 
 
 ### Installation 
 
 1. Clone the repo 
    ```bash
-   git clone https://github.com/vihugoos/feedback-widget-mobile-app.git
+   git clone https://github.com/vihugoos/eSports-duo-mobile.git
    ```
 2. Open cmd terminal and install expo cli globally 
    ```cmd
@@ -125,7 +121,7 @@ With the installation complete, we can start the project.
 
 1. Starting the project 
    ```bash
-   expo start --clear 
+   expo start 
    ```
 
 
