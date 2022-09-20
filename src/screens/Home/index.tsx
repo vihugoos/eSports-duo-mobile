@@ -3,6 +3,8 @@ import { Image, FlatList } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native';
 
+import Constants from 'expo-constants';
+
 import { Background } from '../../components/Background';
 import { GameCard, GameCardProps} from '../../components/GameCard';
 import { Heading } from '../../components/Heading';
@@ -14,14 +16,16 @@ export function Home() {
 
   const [listGames, setListGames] = useState<GameCardProps[]>([]);
 
-  const navigation = useNavigation()
+  const navigation = useNavigation();
+
+  const apiUrl = Constants?.expoConfig?.extra?.apiUrl;
 
   function handleOpenGame({ id, title, bannerUrl }: GameCardProps) {
     navigation.navigate('game', { id, title, bannerUrl });
   }
 
   useEffect(() => {
-    fetch("http://192.168.1.11:3333/games")
+    fetch(`${apiUrl}/games`)
       .then(response => response.json())
       .then(data => setListGames(data))
   }, []);

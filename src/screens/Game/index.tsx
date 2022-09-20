@@ -5,6 +5,8 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRoute, useNavigation } from '@react-navigation/native';
 import { Entypo } from '@expo/vector-icons';
 
+import Constants from 'expo-constants';
+
 import { GameParams } from '../../@types/navigation';
 
 import { Background } from '../../components/Background';
@@ -25,18 +27,20 @@ export function Game() {
   const route = useRoute();
   const game = route.params as GameParams;
 
+  const apiUrl = Constants?.expoConfig?.extra?.apiUrl;
+
   function handleGoBack() {
     navigation.goBack();
   }
 
   async function getDiscordUser(adsId: string) {
-    fetch(`http://192.168.1.11:3333/ads/${adsId}/discord`)
+    fetch(`${apiUrl}/ads/${adsId}/discord`)
       .then(response => response.json())
       .then(data => setDiscordDuoSelected(data.discord))
   }
 
   useEffect(() => {
-    fetch(`http://192.168.1.11:3333/games/${game.id}/ads`)
+    fetch(`${apiUrl}/games/${game.id}/ads`)
       .then(response => response.json())
       .then(data => setDuos(data))
   }, []);
