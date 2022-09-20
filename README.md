@@ -4,14 +4,14 @@
 <div align="center">
 
   <h2 align="center"> 
-    Feedback Widget - Mobile App Version 
+    eSports Duo - Mobile App Version 
   </h2>
   
   <p align="center">
-    A feedback widget to capture feedback from your app's users, developed with Expo and React Native. <br/>
+    An application to find a duo and play your favorite games, developed with Expo and React Native. <br/>
     Explore <a href="https://docs.expo.dev/">Expo</a> or <a href="https://reactnative.dev/docs/getting-started">React Native</a> docs &#187; <br/> <br/>
-    <a href="https://github.com/vihugoos/feedback-widget-mobile-app/issues"> Report Bug </a> &nbsp;•&nbsp;
-    <a href="https://github.com/vihugoos/feedback-widget-mobile-app/issues"> Request Feature </a>
+    <a href="https://github.com/vihugoos/eSports-duo-mobile/issues"> Report Bug </a> &nbsp;•&nbsp;
+    <a href="https://github.com/vihugoos/eSports-duo-mobile/issues"> Request Feature </a>
   </p>
 </div>
 
@@ -47,7 +47,7 @@
   <img src="https://user-images.githubusercontent.com/44311634/178615280-dd27ae33-9798-419c-8df7-6a863d199d3e.gif" align="center" height="500" alt="Project Home Page">
   <br/> <br/> 
 </div>
-A widget where customers can send feedback to the app admin about bugs, ideas, etc. The feedback is saved in the database and an email with complete information about the feedback is sent to the administrator.
+An app for you to find a duo and play your favorite games. It is possible to browse the registered games and view the ads for each game.
 
 
 ### Built With 
