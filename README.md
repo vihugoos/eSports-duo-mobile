@@ -47,7 +47,7 @@
   <img src="https://user-images.githubusercontent.com/44311634/178615280-dd27ae33-9798-419c-8df7-6a863d199d3e.gif" align="center" height="500" alt="Project Home Page">
   <br/> <br/> 
 </div>
-An app for you to find a duo and play your favorite games. It is possible to browse the registered games and view the ads for each game.
+An app for you to find a duo and play your favorite games. It is possible to browse the registered games and view the ads for each game. If you are interested in any ad just connect with the player via discord.
 
 
 ### Built With 
