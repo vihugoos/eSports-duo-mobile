@@ -108,7 +108,7 @@ First of all, we need to ensure that the <strong>server is running</strong>, to 
    <br/> <br/> 
 5. Create an `.env` file with the server API URL, with the <strong>IPv4 Address</strong> captured above, keeping the door `:3333`
    ```cmd
-   echo "SERVER_API_URL='yourIpv4Address:3333'" > .env 
+   echo "SERVER_API_URL='http://yourIPv4Address:3333'" > .env 
    ``` 
 
 
