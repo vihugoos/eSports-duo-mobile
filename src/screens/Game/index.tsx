@@ -27,20 +27,20 @@ export function Game() {
   const route = useRoute();
   const game = route.params as GameParams;
 
-  const apiUrl = Constants?.expoConfig?.extra?.apiUrl;
+  const API_URL = Constants?.expoConfig?.extra?.API_URL;
 
   function handleGoBack() {
     navigation.goBack();
   }
 
   async function getDiscordUser(adsId: string) {
-    fetch(`${apiUrl}/ads/${adsId}/discord`)
+    fetch(`${API_URL}/ads/${adsId}/discord`)
       .then(response => response.json())
       .then(data => setDiscordDuoSelected(data.discord))
   }
 
   useEffect(() => {
-    fetch(`${apiUrl}/games/${game.id}/ads`)
+    fetch(`${API_URL}/games/${game.id}/ads`)
       .then(response => response.json())
       .then(data => setDuos(data))
   }, []);

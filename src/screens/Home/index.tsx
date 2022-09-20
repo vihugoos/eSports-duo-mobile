@@ -18,14 +18,14 @@ export function Home() {
 
   const navigation = useNavigation();
 
-  const apiUrl = Constants?.expoConfig?.extra?.apiUrl;
+  const API_URL = Constants?.expoConfig?.extra?.API_URL;
 
   function handleOpenGame({ id, title, bannerUrl }: GameCardProps) {
     navigation.navigate('game', { id, title, bannerUrl });
   }
 
   useEffect(() => {
-    fetch(`${apiUrl}/games`)
+    fetch(`${API_URL}/games`)
       .then(response => response.json())
       .then(data => setListGames(data))
   }, []);
