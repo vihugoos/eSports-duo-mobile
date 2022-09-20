@@ -119,7 +119,7 @@ With the installation complete, we can start the project.
 
 1. Starting the project 
    ```bash
-   expo start 
+   npx expo start 
    ```
 
 
