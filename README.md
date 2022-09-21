@@ -47,7 +47,6 @@
   <video src="https://user-images.githubusercontent.com/44311634/191397127-7def2add-26b5-4b0b-8a4e-c5e07ca57cc4.mp4">
     Desculpa, o seu navegador não suporta vídeos incorporados,
   </video>
-  <br/> <br/> 
 </div>
 An app for you to find a duo and play your favorite games. It is possible to browse the registered games and view the ads for each game. If you are interested in any ad just connect with the player via discord.
 
