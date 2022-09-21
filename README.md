@@ -44,7 +44,7 @@
 ## About The Project
 
 <div align="center">
-  <video src="https://user-images.githubusercontent.com/44311634/191397127-7def2add-26b5-4b0b-8a4e-c5e07ca57cc4.mp4">
+  <video src="https://user-images.githubusercontent.com/44311634/191397127-7def2add-26b5-4b0b-8a4e-c5e07ca57cc4.mp4" loop>
     Desculpa, o seu navegador não suporta vídeos incorporados,
   </video>
 </div>
