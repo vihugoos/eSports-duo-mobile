@@ -43,8 +43,8 @@
 <!---- THE PROJECT ---->
 ## About The Project
 
-<div align="center">
-  <video preload controls loop type="video/mp4" height="500" src="https://user-images.githubusercontent.com/44311634/191397127-7def2add-26b5-4b0b-8a4e-c5e07ca57cc4.mp4">
+<div align="center" height="500">
+  <video preload controls loop type="video/mp4" src="https://user-images.githubusercontent.com/44311634/191397127-7def2add-26b5-4b0b-8a4e-c5e07ca57cc4.mp4">
     Sorry, your browser does not support embedded videos.
   </video>
 </div>
