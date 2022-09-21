@@ -125,7 +125,7 @@ With the installation complete, we can start the project.
    ```
 
 
-2. Open the <strong>Expo</strong> app on your mobile and scan the <strong>QR Code</strong> displayed on the terminal and wait for the project to build. On IOS use the camera app to scan the QR Code. 
+2. Open the <strong>Expo</strong> app on your mobile and scan the <strong>QR Code</strong> displayed on the terminal and wait for the project to build. On IOS use the camera app to scan the QR Code. Remembering that you need to be connected to the same wi-fi network as your computer. 
 
 <br/>
 
